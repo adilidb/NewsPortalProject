@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsPortalApi", "NewsPortalApi\NewsPortalApi.csproj", "{73AB9838-41D7-4498-AADB-FE63C66409AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Admin", "Admin", "{659C03F2-94FE-455B-B721-C543AC0CA755}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{069AA47B-3DE9-4ECE-B84F-D818EFB990A3}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ClientApp React", "..\..\ClientApp React\", "{6C9B19C5-70F0-4FDE-8A61-D69EC02F0979}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55513"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\ClientApp React\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55513\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55513"
+		Release.AspNetCompiler.PhysicalPath = "..\..\ClientApp React\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55513\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55513"
+		SlnRelativePath = "..\..\ClientApp React\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AdminApp React", "..\..\AdminApp React\", "{C24B2C97-485B-4EFF-A8E7-84BCFF7BB605}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55516"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\AdminApp React\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55516\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55516"
+		Release.AspNetCompiler.PhysicalPath = "..\..\AdminApp React\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55516\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55516"
+		SlnRelativePath = "..\..\AdminApp React\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73AB9838-41D7-4498-AADB-FE63C66409AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73AB9838-41D7-4498-AADB-FE63C66409AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73AB9838-41D7-4498-AADB-FE63C66409AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73AB9838-41D7-4498-AADB-FE63C66409AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C9B19C5-70F0-4FDE-8A61-D69EC02F0979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C9B19C5-70F0-4FDE-8A61-D69EC02F0979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C9B19C5-70F0-4FDE-8A61-D69EC02F0979}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C9B19C5-70F0-4FDE-8A61-D69EC02F0979}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C24B2C97-485B-4EFF-A8E7-84BCFF7BB605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C24B2C97-485B-4EFF-A8E7-84BCFF7BB605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C24B2C97-485B-4EFF-A8E7-84BCFF7BB605}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C24B2C97-485B-4EFF-A8E7-84BCFF7BB605}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6C9B19C5-70F0-4FDE-8A61-D69EC02F0979} = {069AA47B-3DE9-4ECE-B84F-D818EFB990A3}
+		{C24B2C97-485B-4EFF-A8E7-84BCFF7BB605} = {659C03F2-94FE-455B-B721-C543AC0CA755}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA35075D-F1A9-4982-B3F4-D98AEC8CC016}
+	EndGlobalSection
+EndGlobal

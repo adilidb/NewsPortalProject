@@ -1,0 +1,6 @@
+@NewsPortalApi_HostAddress = http://localhost:5218
+
+GET {{NewsPortalApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
